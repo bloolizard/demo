@@ -1,2 +1,21 @@
-<h1>Say#hello</h1>
-<p>Find me in app/views/say/hello.html.erb</p>
+<h1>Hello Bitches</h1>
+<p>
+  It is now <%= @time %>
+</p>
+Additon:
+<%= 1 + 2 %>
+<br>
+<br>
+Concatenation:Cow + Dog
+<%="cow" +"dog"%>
+<br>
+<br>
+Time in one hour:
+<%=1.hour.from_now%>
+<br>
+<br>
+
+<%for file in @files%>
+file name is: <%=file%>
+<% end %>
+<a href="/say/goodbye">Goodbye</a>!
